@@ -1,8 +1,10 @@
 # WinPublicIP
 
-[English](#english) | [Русский](#русский)
+[English](#english) | [Русский](#russian)
 
 ---
+
+<a id="english"></a>
 
 ## English
 
@@ -71,6 +73,8 @@ The app scans active network interfaces for name/description patterns. Add your 
 MIT — see [LICENSE](LICENSE).
 
 ---
+
+<a id="russian"></a>
 
 ## Русский
 
