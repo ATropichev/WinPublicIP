@@ -6,14 +6,7 @@
 
 ## English
 
-A Windows system tray application that displays your current public IP address, country flag, and VPN status — inspired by the [KDE Public IP Address](https://store.kde.org/p/1395534) plasmoid.
-
-### Screenshot
-
-![KDE reference](https://raw.githubusercontent.com/topics/windows-tray/refs/heads/main/preview.png)
-
-> Tray shows: `[country flag] x.x.x.x [VPN shield]`  
-> Tooltip shows: IP, country, VPN status.
+A Windows system tray application that displays your current public IP address, country flag, and VPN status — inspired by the [Public IP Address widget for KDE 6](https://github.com/Davide-sd/ip_address) plasmoid.
 
 ### Features
 
@@ -41,7 +34,7 @@ A Windows system tray application that displays your current public IP address, 
 
 ```powershell
 # Requires .NET 8 SDK: https://dotnet.microsoft.com/download/dotnet/8.0
-git clone https://github.com/<your-username>/WinPublicIP.git
+git clone https://github.com/ATropichev/WinPublicIP
 cd WinPublicIP
 dotnet run                  # development
 dotnet publish -c Release   # single-file exe → bin\Release\...\publish\WinPublicIP.exe
@@ -81,7 +74,7 @@ MIT — see [LICENSE](LICENSE).
 
 ## Русский
 
-Приложение для системного трея Windows, которое отображает текущий публичный IP-адрес, флаг страны и статус VPN — по образцу плазмоида [KDE Public IP Address](https://store.kde.org/p/1395534).
+Приложение для системного трея Windows, которое отображает текущий публичный IP-адрес, флаг страны и статус VPN — по образцу плазмоида [Public IP Address widget for KDE 6](https://github.com/Davide-sd/ip_address).
 
 ### Возможности
 
@@ -109,7 +102,7 @@ MIT — see [LICENSE](LICENSE).
 
 ```powershell
 # Требуется .NET 8 SDK: https://dotnet.microsoft.com/download/dotnet/8.0
-git clone https://github.com/<your-username>/WinPublicIP.git
+git clone https://github.com/ATropichev/WinPublicIP
 cd WinPublicIP
 dotnet run                  # режим разработки
 dotnet publish -c Release   # одиночный exe → bin\Release\...\publish\WinPublicIP.exe
